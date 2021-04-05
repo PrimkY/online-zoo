@@ -19,6 +19,7 @@
  height: 80px;
  display: flex;
  align-items: center;
+ z-index: 100000000000000000;
 }
 
 .logo{
