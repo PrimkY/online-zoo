@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width: 1920px;
+  width: 100%;
+  min-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.picture{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  width: 675px;
+  height: 700px;
+  margin-left: 623px;
+  margin-top: 190px;
+}
