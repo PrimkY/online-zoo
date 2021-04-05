@@ -19,7 +19,7 @@ main{
 }
 
 .padding{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .zooz__tool{
@@ -90,6 +90,10 @@ iframe.youtube1{
   margin-left: 195px;
 }
 
+.infoprav5{
+  margin-left: 270px;
+}
+
 .main__info{
   position: relative;
   font-family: "Roboto";
@@ -141,3 +145,13 @@ iframe.youtube1{
     margin-left: 505px;
 }
 
+.zooz__tool>img{
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.pointed>img{
+  border: 4px solid greenyellow;
+  border-radius: 28px;
+  margin-left: 18px;
+} 
