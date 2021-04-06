@@ -101,7 +101,7 @@
   height: 51px;
   background: #70CB0E;
   border-radius: 30px;
-  font-family:"Roboto" serif;
+  font-family:'Roboto', sans-serif;;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -249,7 +249,7 @@
   border-radius: 30px;
   margin-top: 725px;
   margin-left: 820px;
-  font-family:"Roboto" serif;
+  font-family:'Roboto', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -279,6 +279,11 @@
   width: 253px;
 }
 
+.image:hover{
+  height: 340px;
+  width: 273px;
+}
+
 .box4{
   height: 500px;
   width: 1920px;
@@ -293,7 +298,7 @@
 .header__section__4{
   margin-top: 0px;
   margin-left: 5px;
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -319,7 +324,7 @@
 }
 
 .text__element{
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -329,43 +334,113 @@
 }
 
 .box5{
- height: 697px;
+ height: 797px;
  width: 1920px;
 }
 
-.feedback{
+.testimonials {
+  margin-bottom: 3rem;
+  padding-top: 6rem;
+}
+
+.arrow-right{
+  margin-right: 380px;
+  margin-bottom: -50px;
+}
+
+.arrow-left{
+  margin-left: 380px;
+  margin-bottom: -50px;
+}
+
+.testimonials .text-header {
+  margin-bottom: 80px;
+}
+
+.testimonials-blocks{
+  margin-top: 50px;
+}
+
+.testimonials .content-testimonials {
+  text-align: center;
+}
+
+.testimonials .content-testimonials .btn {
+  width: 13%;
+}
+
+.testimonials .content-testimonials .calusel-testimonials {
   display: flex;
-  margin-left: 360px;
-  margin-top: 80px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
 }
 
-.left, .right{
-  height: 64px;
-  width: 64px;
-  margin-left: 20px;
-  margin-top: 151px;
+.testimonials .content-testimonials .calusel-testimonials .testimonials-blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
 }
 
-.left:hover, .right:hover{
-  cursor: pointer;
+.testimonials .content-testimonials .calusel-testimonials .testimonials-blocks .testimonial-item {
+  width: 233px;
+  min-height: 369px;
+  padding: 20px;
+  background-color: #A7E1FF;
+  box-sizing: border-box;
 }
 
-.column{
- margin-left: 20px;
+.testimonials .content-testimonials .calusel-testimonials .testimonials-blocks .testimonial-item .head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.testimonials .content-testimonials .calusel-testimonials .testimonials-blocks .testimonial-item .head .avatar {
+  width: 52px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+
+.testimonials .content-testimonials .calusel-testimonials .testimonials-blocks .testimonial-item .head .title {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: start;
+}
+
+.testimonials .content-testimonials .calusel-testimonials .testimonials-blocks .testimonial-item .head .title .name {
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.testimonials .content-testimonials .calusel-testimonials .testimonials-blocks .testimonial-item .head .title .money {
+  line-height: normal;
+  padding-left: 15px;
+  background: url(assets/icons/money.png) no-repeat;
+  background-position-y: center;
+}
+
+.testimonials .content-testimonials .calusel-testimonials .testimonials-blocks .testimonial-item .testimonial {
+  text-align: start;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .button__feed{
+  text-decoration: none;
   width: 246px;
   height: 51px;
   background: #70CB0E;
   border-radius: 30px;
-  font-family:"Roboto" serif;
+  font-family:'Roboto', sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
-  margin-left: 837px;
+  padding: 15px 60px;
   margin-top: 50px;
+  z-index: 10;
 }
 
 .button__feed:hover{
@@ -394,7 +469,7 @@ footer{
   height: 51px;
   background: #70CB0E;
   border-radius: 30px;
-  font-family:"Roboto" serif;
+  font-family:'Roboto', sans-serif;
   font-weight: 400;  
   font-style: normal;
   font-size: 18px;
@@ -418,7 +493,7 @@ footer{
 
 .left__column>ul>li, .right__column>ul>li{
   margin-top: 15px;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -467,7 +542,7 @@ footer{
 .copyright{
   margin-left: 77px;
   margin-top: 58px;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -482,7 +557,7 @@ footer{
 .autograph{
   margin-left: 243px;
   margin-top: 58px;
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
