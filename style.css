@@ -343,6 +343,10 @@
   padding-top: 6rem;
 }
 
+.arrow-right:hover, .arrow-left:hover{
+  cursor: pointer;
+}
+
 .arrow-right{
   margin-right: 380px;
   margin-bottom: -50px;
