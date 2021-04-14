@@ -1,5 +1,7 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 @font-face {
     font-family: SceneW01-Black;
@@ -95,6 +97,7 @@
   font-size: 70px;
   line-height: 120%;
   letter-spacing: 0.03em;
+  margin-top: 0px;
 }
 
 .button__play{
@@ -187,18 +190,39 @@
   width: 250px;
   height: 350px;
   z-index: 10;
+  margin-right: -0px;
+  border: 1px solid #FFFFFF;
 }
 
 .item__2{
   width: 300px;
   height: 400px;
   z-index: 11;
+  margin-right: -20px;
+  border: 1px solid #FFFFFF;
 }
 
 .item__3{
   width: 350px;
   height: 450px;
   z-index: 12;
+  border: 1px solid #FFFFFF;
+}
+
+.item__4{
+  width: 300px;
+  height: 400px;
+  z-index: 3;
+  margin-left: -20px;
+  border: 1px solid #FFFFFF;
+}
+
+.item__5{
+  width: 250px;
+  height: 350px;
+  z-index: 1;
+  margin-left: -20px;
+  border: 1px solid #FFFFFF;
 }
 
 .image__coruesel>ul{
@@ -225,7 +249,7 @@
   height: 63px;
   width: 63px;
   display: flex;
-  margin-top: 330px;
+  margin-top: 360px;
 }
 
 .arrows:hover{
