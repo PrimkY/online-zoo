@@ -1273,6 +1273,7 @@ footer{
 .page_wrapper{
     max-width: 640px;
     width: 100%;
+    min-width: 620px;
     margin: 0 auto;
     position: relative;
 }
@@ -1330,7 +1331,7 @@ footer{
 }
 
 .page_main {
-  width: auto;
+  width: 640px;
 }
 
 .section_panda{
@@ -1426,13 +1427,13 @@ footer{
 }
 
 .back_map{
-  background-image: url("assets/icons/Group\ 3.svg");
+  background-image: url("assets/icons/Group\ 3.svg") ;
   z-index: 2;
-  width: 1365px;
+  width: 1010px;
   height: 549px;
-  margin-top: 29px;
-  margin-left: -374px;
-  display: flex;
+  margin-top: 30px;
+  margin-left: -370px;
+  margin-right: 0px;
   overflow: hidden;
 }
 
@@ -1592,6 +1593,10 @@ footer{
   margin-left: 30px;
 }
 
+.upper_animal.margin__low{
+  margin-top: 10px;
+}
+
 .image{
   padding: 10px;
   height: 320px;
@@ -1675,7 +1680,7 @@ footer{
 }
 
 .box5{
- height: 847px;
+ height: 887px;
  width: 640px;
 }
 
@@ -1689,13 +1694,16 @@ footer{
 }
 
 .arrow-right{
-  margin-right: 20px;
-  margin-bottom: 110px;
+  margin-right: 0px;
+  margin-left: 329px;
+  margin-bottom: -630px;
+  position: absolute;
 }
 
 .arrow-left{
-  margin-left: 20px;
-  margin-bottom: -80px;
+  margin-left: 247px;
+  margin-bottom: -630px;
+  position: absolute;
 }
 
 .testimonials .text-header {
@@ -1703,7 +1711,8 @@ footer{
 }
 
 .testimonials-blocks{
-  margin-top: 85px;
+  margin-top: 83px;
+  margin-left: 20px;
 }
 
 .testimonials .content-testimonials {
@@ -1718,7 +1727,7 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 155px;
 }
 
 .testimonials .content-testimonials .calusel-testimonials .testimonials-blocks {
@@ -1787,7 +1796,7 @@ footer{
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
-  padding: 15px 60px;
+  padding: 15px 50px;
   margin-top: 70px;
   z-index: 10;
 }
@@ -1797,9 +1806,10 @@ footer{
 }
 
 footer{
-  height: 270px;
+  height: 359px;
   background-color: #DFF5B0;
   width: 640px;
+  position: relative;
 }
 
 .logo_footer{
@@ -1814,7 +1824,8 @@ footer{
 }
 
 .donate{
-  width: 230px;
+  position: absolute;
+  width: 210px;
   height: 51px;
   background: #70CB0E;
   border-radius: 30px;
@@ -1823,8 +1834,8 @@ footer{
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
-  margin-top: 80px;
-  margin-left: 100px;
+  margin-top: 185px;
+  margin-left: 295px;
 }
 
 .donate:hover{
@@ -1833,7 +1844,7 @@ footer{
 
 .left__column{
   margin-top: 65px;
-  margin-left: 162px;
+  margin-left: 58px;
 }
 
 .left__column>ul>li, .right__column>ul>li{
@@ -1843,12 +1854,13 @@ footer{
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
+  width: 100px;
 }
 
 
 .right__column{
   margin-top: 65px;
-  margin-left: 120px;
+  margin-left: 1px;
 }
 
 .svg__icons>ul{
@@ -1858,12 +1870,12 @@ footer{
 }
 
 .svg__icons>ul>li{
-  margin-left: 10px;
+  margin-left: 9px;
 }
 
 .svg__icons{
   margin-top: 80px;
-  margin-left: 115px;
+  margin-left: 43px;
 }
 
 .botrow{
@@ -1872,32 +1884,34 @@ footer{
 
 .school__logo{
   margin-left: 20px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .maket__logo{
-  margin-left: 57px;
-  margin-top: 60px;
+  margin-left: 75px;
+  margin-top: 50px;
 }
 
 .copyright{
-  margin-left: 77px;
-  margin-top: 92px;
+  margin-left: 111px;
+  margin-top: 180px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
+  position: absolute;
 }
 
 .autograph{
-  margin-left: 203px;
-  margin-top: 92px;
+  margin-left: 250px;
+  margin-top: 150px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
+  position: absolute;
 }
 
 }
