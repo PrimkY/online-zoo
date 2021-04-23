@@ -156,3 +156,81 @@ main{
 }
 
 }
+
+@media only screen and (max-width : 640px) {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+  background-color: #A7E1FF;
+  width: 640px;
+  height: 880px;
+  overflow: hidden;
+}
+
+.map>img{
+  width: 933px;
+  height: 600px;
+  margin-left: 50px;
+}
+
+.map{
+  position: relative;
+  padding-top: 180px;
+  padding-left: 50px;
+  margin-left: -250px;
+  z-index: 100;
+}
+
+.pet1{
+  margin-top: -357px;
+  margin-left: 25px;
+  z-index: 1000;
+}
+
+.pet2{
+  margin-top: 75px;
+  margin-left: 579px;
+  z-index: 1000;
+}
+
+.pet3{
+  margin-top: -153px;
+  margin-left: 794px;
+  z-index: 1000;
+}
+
+.pet4{
+  margin-top: -65px;
+  margin-left: 299px;
+  z-index: 1000;
+}
+
+.country__name1{
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+.country__name2{
+  margin-top: -170px;
+  margin-left: 197px;
+}
+
+.country__name3{
+  margin-top: -23px;
+  margin-left: 707px;
+}
+
+.map.map_zoom{
+  background-image: url("assets/icons/zoom.png");
+  position: fixed;
+  background-repeat: no-repeat;
+  margin-top: 695px;
+  margin-left: 578px;
+  z-index: 500;
+}
+
+}
