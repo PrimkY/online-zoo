@@ -154,4 +154,476 @@ iframe.youtube1{
   border: 4px solid greenyellow;
   border-radius: 28px;
   margin-left: 18px;
-} 
+}
+
+.tooltip_active {
+  background-image: url(../assets/icons/tooltip.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 47px;
+  width: 111px;
+  left: 6em;
+  top: 1.5em;
+  position: absolute;
+  text-align: center;
+
+}
+
+.tooltip_active::after {
+  content: attr(data-title);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+@media only screen and (max-width : 1200px) {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page_header{
+  margin-left: 0px;
+}
+
+.content{
+  height: 1630px;
+  width: 1200px;
+  padding-top: 80px;
+  position: relative;
+}
+
+.toolbar{
+    height: 45px;
+    position: fixed;
+    margin-top: 207px;
+    margin-left: 20px;
+    background-image: url("../assets/images/map_arrow.png");
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.toolbar:hover{
+  cursor: pointer;
+}
+
+.padding{
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.zooz__tool{
+  margin-left: 20px;
+}
+
+.content>h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 80px;
+  margin-left: 10px;
+}
+
+
+iframe.youtube{
+  width: 1160px;
+  height: 653px;
+}
+
+.youtube{ 
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+iframe.youtube1{
+    height: 155px;
+    width: 275px;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+
+.four__videos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.main__info{
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 1160px;
+  height: 61px;
+  background: #A7E1FF;
+  display: flex;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.infoprav{
+    margin-left: 20px;
+    margin-top: 20px;   
+}
+
+.infoprav2{
+    margin-left: 145px; 
+    margin-top: 20px;  
+}
+
+.infoprav3{
+  margin-left: 220px;
+  margin-top: 20px;
+}
+
+.infoprav4{
+  margin-left: 180px;
+  margin-top: 20px;
+}
+
+.infoprav5{
+  margin-left: 270px;
+  margin-top: 20px;
+}
+
+.main__info{
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.left__info, .right__info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.left__info{
+    margin-left: 20px;
+}
+
+.right__info{
+    margin-left: 610px;
+}
+
+.collapsible{
+    width: 570px;
+    height: 142px;
+    background: #A7E1FF;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.collapsible>p{
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+
+.iiinfo{
+    width: 470px;
+    height: 76px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+
+.iiinfo>p{
+  margin-top: 10px;
+}
+
+.content__button{
+    text-align: left;
+    max-height: 100%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.arrow_butt{
+    width: 45px;
+    height: 45px;
+    margin-left: 505px;
+}
+
+.zooz__tool>img{
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.pointed>img{
+  border: 4px solid greenyellow;
+  border-radius: 28px;
+  margin-left: 18px;
+}
+
+.tooltip_active {
+  background-image: url(../assets/icons/tooltip.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 47px;
+  width: 111px;
+  left: 6em;
+  top: 1.5em;
+  position: absolute;
+  text-align: center;
+
+}
+
+.tooltip_active::after {
+  content: attr(data-title);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+}
+
+@media only screen and (max-width : 640px) {
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page_header{
+  margin-left: 0px;
+}
+
+
+.content{
+  height: 1620px;
+  width: 640px;
+  padding-top: 80px;
+  position: relative;
+}
+
+.toolbar{
+    height: 45px;
+    position: fixed;
+    margin-top: 207px;
+    margin-left: 20px;
+    background-image: url("../assets/images/map_arrow.png");
+    background-repeat: no-repeat;
+    z-index: 100;
+}
+
+.toolbar:hover{
+  cursor: pointer;
+}
+
+.padding{
+    margin-top: 10px;
+    visibility: hidden;
+}
+
+.zooz__tool{
+  margin-left: 20px;
+}
+
+.content>h1{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 80px;
+  margin-left: 10px;
+}
+
+
+iframe.youtube{
+  width: 600px;
+  height: 338px;
+}
+
+.youtube{ 
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+iframe.youtube1{
+    height: 167px;
+    width: 290px;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+
+.four__videos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 620px;
+    height: 354px;
+}
+
+.youtube1.tablet{
+  position: absolute;
+  margin-top: 185px;
+  margin-left: -290px;
+}
+
+.youtube1.tablet1{
+  position: absolute;
+  margin-top: 185px;
+  margin-left: 330px;
+}
+
+.main__info{
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 600px;
+  height: 87px;
+  background: #A7E1FF;
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: start;
+}
+
+.infoprav{
+    margin-left: 20px;
+    margin-top: 20px;   
+}
+
+.infoprav2{
+  margin-left: 20px;
+  margin-top: 5px; 
+}
+
+.infoprav3{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.infoprav4{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.infoprav5{
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.main__info{
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.left__info, .right__info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.left__info{
+    margin-left: 20px;
+}
+
+.right__info{
+    margin-left: 20px;
+    margin-top: 160px;
+}
+
+.collapsible{
+    width: 600px;
+    height: 142px;
+    background: #A7E1FF;
+    border: 0px;
+    margin-top: 20px;
+}
+
+.collapsible>p{
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+
+.iiinfo{
+    width: 470px;
+    height: 76px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+
+.iiinfo>p{
+  margin-top: 10px;
+}
+
+.content__button{
+    text-align: left;
+    max-height: 100%;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.arrow_butt{
+    width: 45px;
+    height: 45px;
+    margin-left: 505px;
+}
+
+.zooz__tool>img{
+  border: 2px solid white;
+  border-radius: 30px;
+}
+
+.pointed>img{
+  border: 4px solid greenyellow;
+  border-radius: 28px;
+  margin-left: 18px;
+}
+
+.tooltip_active {
+  background-image: url(../assets/icons/tooltip.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 47px;
+  width: 111px;
+  left: 6em;
+  top: 1.5em;
+  position: absolute;
+  text-align: center;
+
+}
+
+.tooltip_active::after {
+  content: attr(data-title);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+}
